@@ -1,0 +1,25 @@
+<div class="jumbo">
+  <div class="right tomster"></div>
+  <h2>Welcome!</h2>
+  {{#link-to 'about' class="button"}}
+    About Me
+  {{/link-to}}
+</div>
+
+{{#each model as |example|}}
+  <article class="listing">
+    <h3>{{example.title}}</h3>
+    <div class="detail date">
+      <span>Date:</span> {{example.date}}
+    </div>
+    <div class="detail image">
+      <span>Image:</span> {{example.image}}
+    </div>
+    <div class="detail description">
+      <span>Description:</span> {{example.description}}
+    </div>
+    <div class="detail languages">
+      <span>Languages:</span> {{example.languages}}
+    </div>
+  </article>
+{{/each}}
