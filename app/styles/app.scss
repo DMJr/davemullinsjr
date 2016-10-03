@@ -37,6 +37,7 @@ body {
     font-family: 'Comfortaa', cursive;
     color: #FFF;
     font-size: 24px;
+    min-height: 500px;
 
     #profile-pic {
         background-image: url('/assets/img/mullins-profile-cropped.jpg');
@@ -90,6 +91,7 @@ body {
 }
 #contact-me {
     background: #FFF;
+    padding-top: 40px;
 
     h2 {
         color: #c0c0c0;
@@ -155,5 +157,27 @@ body {
                 }
             }
         }
+    }
+}
+.body {
+    min-height: 600px;
+}
+#footer-menu {
+    background: #949494;
+    padding: 40px 0;
+    color: #FFF;
+    width: 80%;
+    margin: auto;
+
+    .darker-text {
+        color: #c0c0c0;
+    }
+
+    a {
+        color: #FFF;
+        text-decoration: none;
+        margin: 0 15px;
+        font-family: 'Comfortaa', cursive;
+        letter-spacing: 2px;
     }
 }
