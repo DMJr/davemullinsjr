@@ -1,3 +1,137 @@
 body {
     font-family: 'Hind', sans-serif;
+    background: #949494;
+}
+
+#header-menu {
+    padding: 10px 0;
+    border-bottom: 1px solid #949494;
+    background: #FFF;
+
+    a {
+        color: #949494;
+        text-decoration: none;
+    }
+    #my-name {
+        font-size: 36px;
+
+        a {
+            color: #444;
+
+            #first {
+                font-family: 'Comfortaa', cursive;
+            }
+            #last {
+                font-family: 'Fredoka One', cursive;
+            }
+        }
+    }
+    .linked {
+        margin-top: 20px;
+    }
+    .name {
+        display: inline;
+    }
+}
+#app-index, #contact-me {
+    font-family: 'Comfortaa', cursive;
+    color: #FFF;
+    font-size: 24px;
+
+    #profile-pic {
+        background-image: url('/assets/img/mullins-profile-cropped.jpg');
+        height: 400px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    #my-name {
+        font-size: 36px;
+        padding-top: 40px;
+        color: #FFF;
+        letter-spacing: 25px;
+
+        #first {
+            font-family: 'Comfortaa', cursive;
+        }
+        #last {
+            font-family: 'Fredoka One', cursive;
+        }
+
+        .name {
+            display: inline;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+    #about-me {
+        padding-top: 80px;
+        width: 80%;
+        margin: auto;
+        letter-spacing: 2px;
+
+        .row {
+            line-height: 1.5em;
+        }
+    }
+}
+#contact-me {
+    background: #FFF;
+
+    h2 {
+        color: #c0c0c0;
+        padding-left: 10px;
+    }
+    .info, a {
+        color: #444;
+        padding-left: 40px;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+}
+#app-examples {
+    background: #FFF;
+    margin-left: 0;
+
+    .intro {
+        width: 80%;
+        margin: auto;
+        padding: 40px 0;
+    }
+
+    #example-container {
+        .odd {
+            border: 1px solid #c0c0c0;
+            padding: 50px 0;
+
+            .img-container {
+                width: 90%;
+                margin: auto;
+
+                .example-img {
+                    width: 100%;
+                }                
+            }
+
+            .info-container {
+                padding: 10px;
+                width: 95%;
+
+                .title {
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+                .date {
+                    font-style: italic;
+                }
+                .description, .languages {
+                    margin-top: 10px;
+                    padding-left: 15px;
+                }
+            }
+        }
+    }
 }

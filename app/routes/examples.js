@@ -2,34 +2,44 @@ import Ember from 'ember';
 
 let websites = [{
   id: 'hapyak',
-  title: 'Hapyak Interactive Video',
+  title: 'HapYak',
+  website: '//www.HapYak.com',
+  websiteName: 'HapYak.com',
   date: 'October 2014 - Current',
   image: '//corp.hapyak.com/img/hy-nav-logo.png',
-  description: "HapYak is an interactive video company based on Mozilla's interactive library, Popcorn.js.",
+  description: "HapYak makes interactive video possible at scale, by adding an HTML overlay on top of videos.  My work has included extending our product to streamline client onboarding, building microservices to integrate our product with 3rd party services, helping create our first vertical product offering, and much more.",
   languages: 'JavaScript, Python',
   frameworks: 'Ember, Flask, Node'
 }, {
   id: 'liftgateme',
   title: 'LiftGateMe',
+  website: '//www.LiftGateMe.com',
+  websiteName: 'LiftGateMe.com',
   date: 'July 2009 - December 2015',
   image: '/assets/img/liftgateme.png',
-  description: 'What started as a challenge to myself during my freshman year of college, LiftGateMe ultimately inspired my career as a developer and entreprenuer.  With an average monthly revenue of over $30,000 LiftGateMe serves customers accross America utilizing automated processes.',
-  languages: 'PHP, JavaScript'
+  description: 'Creating this started as a challenge to myself during freshman year of college.  LiftGateMe ultimately inspired my career as a developer and entreprenuer.  With an average monthly revenue of over $30,000 LiftGateMe serves customers accross America utilizing automated processes.',
+  languages: 'PHP, JavaScript',
+  frameworks: 'Pinnacle Cart e-commerce engine'
 }, {
   id: 'kwickfind',
   title: 'KwickFind',
-  date: '2016',
+  website: '//www.KwickFind.com',
+  websiteName: 'KwickFind.com',
+  date: '2016 Side Project',
   image: '/assets/img/kwickfind.png',
-  description: 'KwickFind is a lips orem. ... FIX THIS',
-  languages: 'FIX THIS'
+  description: 'KwickFind is an ongoing side project which is striving to assist mom-and-pop rental companies better market the availability of their products as well as provide online reservations for items.',
+  languages: 'Ruby, JavaScript',
+  frameworks: 'Ruby On Rails'
 }, {
   id: 'eagleliftgate',
   title: 'EagleLiftGate',
-  date: '',
+  website: '//www.EagleLiftGate.com',
+  websiteName: 'EagelLiftGate.com',
+  date: 'September 2016 Project',
   image: '/assets/img/eagleliftgate.png',
-  description: 'EagleLiftGate FIX THIS',
-  languages: 'FIX THIS',
-  frameworks: 'FIX THIS'
+  description: 'EagleLiftGate is a leadwall site which allows customers with Eagle Liftgates, one of America\'s largest pickup liftgate brands, to submit information for quotes on new parts and liftgates.',
+  languages: 'JavaScript',
+  frameworks: 'Node, Express'
 }];
 
 export default Ember.Route.extend({

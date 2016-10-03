@@ -6,7 +6,8 @@
     <title>David Mullins</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="//fonts.googleapis.com/css?family=Hind" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Comfortaa:400,700" rel="stylesheet">
 
     {{content-for "head"}}
 
@@ -18,7 +19,9 @@
     {{content-for "head-footer"}}
   </head>
   <body>
-    {{content-for "body"}}
+    <div id="container" class="row">
+        {{content-for "body"}}
+    </div>
 
     <script src="{{rootURL}}assets/vendor.js"></script>
     <script src="{{rootURL}}assets/examples.js"></script>

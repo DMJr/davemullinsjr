@@ -1,26 +1,60 @@
-<div class="jumbo">
-  <div class="right tomster"></div>
-  <h2>Welcome!</h2>
-  {{#link-to 'about' class="button"}}
-    About Me
-  {{/link-to}}
-</div>
+<div id="app-examples" class="row">
+    <div class="row text-center intro">
+        For 2 years I have been using web development to build solutions.  After graduating with a degree in Corporate Finance and Accounting, then woring at a global medical device manufacturer, I realized my impact could have a greater reach through developing programs which could run independent of the human touch.
+    </div>
 
-{{#each model as |example|}}
-  <article class="listing">
-    <h3>{{example.title}}</h3>
-    <div class="detail date">
-      <span>Date:</span> {{example.date}}
+    <div id="example-container">
+        {{#each model as |example|}}
+            <div class="row odd">
+                <div class="col-sm-5">
+                    <div class="img-container">
+                        <img class="example-img" src={{example.image}} />
+                    </div>
+                </div>
+                <div class="col-sm-7">
+                    <div class="info-container">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="title">
+                                    {{example.title}}
+                                </div>
+                            </div>
+                            <div class="col-sm-6 text-right">
+                                <div class="date">
+                                    {{example.date}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row description">
+                            {{example.description}}
+                        </div>
+                        <div class="row languages">
+                            <div class="col-sm-3">
+                                Languages:
+                            </div>
+                            <div class="col-sm-9">
+                                {{example.languages}}
+                            </div> 
+                        </div>
+                        <div class="row languages">
+                            <div class="col-sm-3">
+                                Frameworks:
+                            </div>
+                            <div class="col-sm-9">
+                                {{example.frameworks}}
+                            </div>
+                        </div>
+                        <div class="row languages">
+                            <div class="col-sm-3">
+                                Website:
+                            </div>
+                            <div class="col-sm-9">
+                                <a href={{example.website}} target="_blank"> {{example.websiteName}} </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {{/each}}
     </div>
-    <div class="detail image">
-      <span>Image:</span> {{example.image}}
-      <img src={{example.image}} style="width:200px;height:200px;"/>
-    </div>
-    <div class="detail description">
-      <span>Description:</span> {{example.description}}
-    </div>
-    <div class="detail languages">
-      <span>Languages:</span> {{example.languages}}
-    </div>
-  </article>
-{{/each}}
+</div>
