@@ -7,7 +7,7 @@ let websites = [{
   websiteName: 'HapYak.com',
   date: 'October 2014 - Current',
   image: '//corp.hapyak.com/img/hy-nav-logo.png',
-  description: "HapYak makes interactive video possible at scale, by adding an HTML overlay on top of videos.  My work has included extending our product to streamline client onboarding, building microservices to integrate our product with 3rd party services, helping create our first vertical product offering, and much more.",
+  description: "HapYak makes interactive video possible at scale, by adding an HTML overlay on top of videos.  My work has included extending our product to streamline client on-boarding, building micro-services to integrate our product with 3rd party services, helping create our first vertical product offering, and much more.",
   languages: 'JavaScript, Python',
   frameworks: 'Ember, Flask, Node'
 }, {
@@ -17,7 +17,7 @@ let websites = [{
   websiteName: 'LiftGateMe.com',
   date: 'July 2009 - December 2015',
   image: '/assets/img/liftgateme.png',
-  description: 'Creating this started as a challenge to myself during freshman year of college.  LiftGateMe ultimately inspired my career as a developer and entreprenuer.  With an average monthly revenue of over $30,000 LiftGateMe serves customers accross America utilizing automated processes.',
+  description: 'Creating this started as a challenge to myself during freshman year of college.  LiftGateMe ultimately inspired my career as a developer and entrepreneur.  With an average monthly revenue of over $30,000 LiftGateMe serves customers across America utilizing automated processes.',
   languages: 'PHP, JavaScript',
   frameworks: 'Pinnacle Cart e-commerce engine'
 }, {
@@ -37,7 +37,7 @@ let websites = [{
   websiteName: 'EagelLiftGate.com',
   date: 'September 2016 Project',
   image: '/assets/img/eagleliftgate.png',
-  description: 'EagleLiftGate is a leadwall site which allows customers with Eagle Liftgates, one of America\'s largest pickup liftgate brands, to submit information for quotes on new parts and liftgates.',
+  description: 'EagleLiftGate is a lead-wall site which allows customers with Eagle Liftgates, one of America\'s largest pickup liftgate brands, to submit information for quotes on new parts and liftgates.',
   languages: 'JavaScript',
   frameworks: 'Node, Express'
 }];
