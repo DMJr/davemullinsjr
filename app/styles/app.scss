@@ -73,8 +73,18 @@ body {
         margin: auto;
         letter-spacing: 2px;
 
+        .inline {
+            display: inline;
+
+            &.accent {
+                font-weight: bold;
+                font-size: 38px;
+                margin: 0 10px;
+            }
+        }
+        
         .row {
-            line-height: 1.5em;
+            line-height: 2em;
         }
     }
 }
